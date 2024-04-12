@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 60rem;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+
+}
+
+.logo {
+    color: white;
+    margin: 0;
+    padding: 0 1rem;
+
+}
+
+.search {
+    color: white;
+}
+
+.store {
+    color: white;
+}
+
+.menu {
+    color: white;
+}
+
+.header-nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin: 0;
+    padding: 0 8px;
+    list-style-type: none;
+}
