@@ -1,46 +1,96 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.container {
-    width: 100%;
-    max-width: 60rem;
-    margin: auto;
-}
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: black;
+.container {}
 
-}
+.header {}
 
 .logo {
     color: white;
-    margin: 0;
-    padding: 0 1rem;
 
 }
 
-.search {
+.text-header {
+    color: white;
+    display: none;
+}
+
+.icon {
     color: white;
 }
 
-.store {
-    color: white;
-}
 
-.menu {
-    color: white;
-}
 
 .header-nav-list {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    background: rgb(22, 22, 23, 0.9);
+    position: fixed;
     gap: 2rem;
-    margin: 0;
-    padding: 0 8px;
     list-style-type: none;
+    display: flex;
+    width: 100%;
+
+}
+
+.grid {
+    justify-content: center;
+    display: grid;
+    display: inline-flexbox;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+
+.grid div {
+    height: 28rem;
+    display: flex;
+}
+
+.vision-pro-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+
+.vision-pro-text {
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    margin-top: 15pc;
+}
+
+.vision-pro-button {
+    justify-content: center;
+    flex-direction: row;
+    color: white;
+    gap: 1rem;
+    margin-top: 1pc;
+
+}
+
+.vision-pro-button button {
+    justify-content: center;
+    height: 1.7rem;
+    width: 5rem;
+    background-color: #f3faf4;
+    color: rgb(7, 7, 7);
+    border: none;
+    border-radius: 4rem;
+
+
+}
+
+.vision-pro-button button.buy {
+    background-color: transparent;
+    color: #f3faf4;
+    border: 1px solid #f3faf4;
+    width: 3rem;
 }
