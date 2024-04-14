@@ -11,7 +11,6 @@
 
 .logo {
     color: white;
-
 }
 
 .text-header {
@@ -34,37 +33,77 @@
     display: flex;
     width: 100%;
 
+
 }
 
 .grid {
     justify-content: center;
     display: grid;
-    display: inline-flexbox;
-    flex-wrap: wrap;
     gap: 0.5rem;
 }
 
-
-.grid div {
+div {
     height: 28rem;
     display: flex;
+    justify-content: center;
 }
+
+
+.grid div video {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
 
 .vision-pro-text {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     text-align: center;
     color: white;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 18rem;
+}
+
+.my-text {
+    position: absolute;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
+
+}
+
+.my-button {
+    justify-content: center;
+    color: white;
+    margin-top: 1rem;
+
+}
+
+.my-button button {
+    justify-content: center;
+    height: 1.7rem;
+    width: 8rem;
+    background-color: black;
+    color: blue;
+    border: none;
+    border-radius: 4rem;
+    border: 1px solid blue;
+
 }
 
 
-.vision-pro-text {
-    justify-content: center;
-    flex-direction: column;
+.my-button button:hover {
+    background-color: blue;
     color: white;
-    margin-top: 15pc;
 }
 
 .vision-pro-button {
@@ -72,8 +111,30 @@
     flex-direction: row;
     color: white;
     gap: 1rem;
-    margin-top: 1pc;
+    margin-top: 1rem;
 
+}
+
+.text-color {
+    color: #000;
+}
+.button-color{
+    gap: 1rem;
+}
+.button-color button {
+    background-color: blue;
+    color: #f3faf4;
+    width: 5rem;
+}
+.button-color button.buy {
+    background-color: transparent;
+        color: blue;
+        border: 1px solid blue;
+        width: 3rem;
+}
+.button-color button.buy:hover {
+    background-color: blue;
+        color: white;
 }
 
 .vision-pro-button button {
@@ -85,7 +146,6 @@
     border: none;
     border-radius: 4rem;
 
-
 }
 
 .vision-pro-button button.buy {
@@ -94,3 +154,22 @@
     border: 1px solid #f3faf4;
     width: 3rem;
 }
+
+.vision-pro-button button.buy:hover {
+    background-color: #f3faf4;
+    color: black;
+}
+
+
+.smart-watch {
+    height: 28rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.smart-watch div {
+    justify-content: center;
+    margin: 0.5rem;
+
+} 
