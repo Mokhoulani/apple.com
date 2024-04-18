@@ -3,102 +3,275 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apple</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="mobile.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
 
 </head>
 
-<body class="container">
+<body class="container ">
+
     <header class="header ">
 
-        <nav>
-
-            <ul class="header-nav-list">
-                <li class="logo">
-                    <i class="material-icons">apple</i>
-                </li>
-                <li class="text-header"> Store </li>
-                <li class="text-header"> Mac</li>
-                <li class="text-header"> iPad </li>
-                <li class="text-header"> iPhone </li>
-                <li class="text-header">Watch </li>
-                <li class="text-header"> Vision </li>
-                <li class="text-header">AirPods </li>
-                <li class="text-header"> TV & Home </li>
-                <li class="text-header"> Enterainment </li>
-                <li class="text-header"> Accessories </li>
-                <li class="text-header"> Support</li>
-                <li class="icon">
-                    <i class="material-icons">search</i>
-                </li>
-                <li class="icon">
-                    <i class="material-icons">shop</i>
-                </li>
-                <li class="icon">
-                    <i class="material-icons">menu</i>
-                </li>
-            </ul>
-        </nav>
+        <div class="header-left">
+            <li class="icon">
+                <i class="material-icons">apple</i>
+            </li>
+        </div>
+        
+            <nav class="header-nav">
+               
+                    <a href="#"> Store </a>
+                    <a href="#"> Mac</a>
+                    <a href="#"> iPad </a>
+                    <a href="#"> iPhone </a>
+                    <a href="#">Watch </a>
+                    <a href="#"> Vision </a>
+                    <a href="#">AirPods </a>
+                    <a href="#"> TV & Home </a>
+                    <a href="#"> Enterainment </a>
+                    <a href="#"> Accessories </a>
+                    <a href="#"> Support</li>
+               
+            </nav>
+        
+        <div class="header-right">
+            <li class="icon">
+                <i class="material-icons">search</i>
+            </li>
+            <li class="icon">
+                <i class="material-icons">shop</i>
+            </li>
+            <li class="icon">
+                <i class="material-icons">menu</i>
+            </li>
+        </div>
     </header>
 
     <main class="grid">
+
         <div class="div">
-            <video src="./video/437257583_7391855254194691_5977685768778495270_n.mp4" autoplay controls></video>
+            <video class="media" src="./video/437257583_7391855254194691_5977685768778495270_n.mp4" autoplay
+                muted></video>
             <div class="vision-pro-text">
-                <h2><i class="material-icons">apple</i>Vision Pro</h2>
-                <p>You've never seen </p>
-                <p>evrythinig like this before</p>
-                <div class="vision-pro-button">
-                    <button>Learn more</button>
-                    <button class="buy">Buy</button>
+                <h4><i class="material-icons">apple</i>Vision Pro</h4>
+                <p>You've never seen
+                    evrythinig like this before</p>
+                <div>
+                    <button class="button-white">Learn more</button>
+                    <button class="buy margin-left">Buy</button>
                 </div>
             </div>
         </div>
 
-        <div class=" div img">
-            <img src="./image/Screenshot 2024-04-13 151336.png" alt="" srcset="">
-            <div class="my-text my-button">
+        <div class="image-div">
+            <img class="media" src="./image/Screenshot 2024-04-13 151336.png" alt="" srcset="">
+            <div class="my-text ">
                 <h2>iPhone</h2>
-                <p>Our most powerful caneras yet.</p>
-                <p>Uitrafast chips.And USB-C.</p>
+                <p>Our most powerful caneras yet.
+                    Uitrafast chips.And USB-C.</p>
                 <div class="my-button">
                     <button>Explore iPhone 15</button>
+                </div>
+                <div class="my-button button-width">
                     <button>Explore iPhone 15 Pro</button>
                 </div>
             </div>
         </div>
-        <div class=" div img">
-            <img src="./image/Screenshot 2024-04-13 183049.png" alt="" srcset="">
-            <div class="my-text text-color my-button">
-                <h2>MacBook Air</h2>
-                <p>Our most powerful caneras yet.</p>
-                <div class="my-button button-color">
-                    <button>Learn more</button>
-                    <button class="buy">Buy</button>
+        <div class=" image-div">
+            <img class="media" src="./image/Screenshot 2024-04-13 183049.png" alt="" srcset="">
+            <div class="my-text text-color ">
+                <h4>MacBook Air</h4>
+                <p>Lean.Mean.M3 machine.</p>
+                <div>
+                    <button class="button-blue">Learn more</button>
+                    <button class="buy margin-left">Buy</button>
                 </div>
             </div>
         </div>
 
-     <div  class="smart-watch">
-            <div>
-                <img src="./image/Screenshot 2024-04-14 063839.png" alt="" srcset="">
-            
+        <div class="container-div">
+
+            <div class="image-div">
+                <img class="media" src="./image/Screenshot 2024-04-14 063839.png" alt="" srcset="">
+                <div class="vision-pro-text">
+                    <p>Apple Worldwide
+                        Developers Confernce
+                        Join us online June 10-14</p>
+                    <div>
+                        <button class="button-blue">Learn more</button>
+                    </div>
+                </div>
             </div>
-            <div>
-                <img src="./image/Screenshot 2024-04-14 063855.png" alt="" srcset="">
-            
-            </div> 
+            <div class="image-div">
+                <img class="media" src="./image/Screenshot 2024-04-14 063855.png" alt="" srcset="">
+                <div class="my-text">
+                    <h4><i class="material-icons">apple</i>WATCH</h4>
+                    <p class="font-sz-xs red-color">series 9</p>
+                    <p class="font-sz-s">Smarter.Brighter.Mightier. </p>
+                    <div class="vision-pro-button ">
+                        <button class="button-blue">Learn more</button>
+                        <button class="buy">Buy</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-div">
+
+            <div class="image-div">
+                <img class="media" src="./image/Screenshot 2024-04-14 063935.png" alt="" srcset="">
+                <div class="position-abs margin-top-1">
+                    <h4 class="justify-content-cen margin-left-2">ipad</h4>
+                    <p class="justify-content-cen">Lovable. Drawable. Magical</p>
+                    <div class="justify-content-cen">
+                        <button class="button-blue">Learn more</button>
+                        <button class="button-white margin-left">Buy</button>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="image-div">
+                <img class="media" src="./image/Screenshot 2024-04-14 063944.png" alt="" srcset="">
+                <div class="position-abs justify-content-cen color-white margin-top-1">
+                    <h4>AirPods pro</h4>
+                    <p>Smarter.Brighter.Mightier. </p>
+                    <div>
+                        <button class="button-blue ">Learn more</button>
+                        <button class="buy margin-left">Buy</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-div">
+
+            <div class="image-div">
+                <img class="media" src="./image/Screenshot 2024-04-14 064031.png" alt="" srcset="">
+                <div class="position-abs margin-top-1 justify-content-cen">
+                    <h4 class="margin-left-2"><i class="material-icons">apple</i>Card</h4>
+                    <!-- <p>Get up to 3% Daily Cash back with every purchase </p> -->
+                    <div>
+                        <button class="button-blue">Learn more</button>
+                        <button class="button-white">Apply now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="image-div">
+                <img class="media" src="./image/Screenshot 2024-04-14 064103.png" alt="" srcset="">
+                <div class="position-abs">
+                    <h2 class="margin-left-2"><i class="material-icons">apple</i>Trade In</h2>
+                    <!-- <p>Get $180-$630 in credit when You trde in iPhone 11 or hiher</p> -->
+                    <div class="margin-left-2">
+                        <button class="button-blue">Get you estimate</button>
+                    </div>
+                </div>
+
+            </div>
 
         </div>
 
     </main>
-    <footer>
+
+    <footer class="footer ">
+        <div class="footer-div">
+            <p>
+                1. Trade-in values will vary based on the condition, year, and configuration of your eligible trade-in
+                device. Not
+                all
+                devices are eligible for credit. You must be at least 18 years old to be eligible to trade in for credit
+                or for an
+                Apple
+                Gift Card. Trade-in value may be applied toward qualifying new device purchase, or added to an Apple
+                Gift Card.
+                Actual
+                value awarded is based on receipt of a qualifying device matching the description provided when estimate
+                was made.
+                Sales
+                tax may be assessed on full value of a new device purchase. In-store trade-in requires presentation of a
+                valid photo
+                ID
+                (local law may require saving this information). Offer may not be available in all stores, and may vary
+                between
+                in-store
+                and online trade-in. Some stores may have additional requirements. Apple or its trade-in partners
+                reserve the right
+                to
+                refuse or limit quantity of any trade-in transaction for any reason. More details are available from
+                Apple’s
+                trade-in
+                partner for trade-in and recycling of eligible devices. Restrictions and limitations may apply.
+                Available in the U.S. on apple.com, in the Apple Store app, and at Apple Stores.
+                To access and use all Apple Card features and products available only to Apple Card users, you must add
+                Apple Card
+                to
+                Wallet on an iPhone or iPad that supports and has the latest version of iOS or iPadOS. Apple Card is
+                subject to
+                credit
+                approval, available only for qualifying applicants in the United States, and issued by Goldman Sachs
+                Bank USA, Salt
+                Lake
+                City Branch.
+                If you reside in the U.S. territories, please call Goldman Sachs at 877-255-5923 with questions about
+                Apple Card.
+                Learn more about how Apple Card applications are evaluated at support.apple.com/kb/HT209218.
+                A subscription is required for Apple TV+.
+                A subscription is required for Apple Arcade, Apple Fitness+, and Apple Music.
+            </p>
+        </div>
+        <div class="footer-div">
+            <div class="accordion  accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne"
+                            fdprocessedid="a4ii93">
+                            Shop and Learn
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div><a href="#">Store</a></div>
+                            <div><a href="#">Mac</a></div>
+                            <div><a href="#">iPad</a></div>
+                            <div><a href="#">iPhone</a></div>
+                            <div><a href="#">Wactch</a></div>
+                            <div><a href="#">Vision</a></div>
+                            <div><a href="#">Airpods</a></div>
+                            <div><a href="#">TV & Home</a></div>
+                            <div><a href="#">AirTag</a></div>
+                            <div><a href="#">Accessories</a></div>
+                            <div><a href="#">Gift Cards</a></div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p>
+                More ways to shop: Find an Apple Store or other retailer near you. Or call 1-800-MY-APPLE.
+                United States
+                Copyright © 2024 Apple Inc. All rights reserved.
+                Privacy Policy Terms of Use Sales and Refunds Legal Site Map
+            </p>
+        </div>
+
 
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
 </body>
 
 </html>
