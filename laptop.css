@@ -1,6 +1,6 @@
 .padding-left {
     padding-left: 0.5rem;
-    font-size: 21px !important;
+    font-size: 20px !important;
 
 }
 
@@ -9,15 +9,32 @@
         display: flex;
     }
 
+    .container-video {
+        height: 45rem;
+        width: 100%;
+        display: flex;
+    }
+
+    .headline-font {
+        font-size: 55px;
+    }
+
+    .bottom-3 {
+        bottom: -150px;
+        ;
+    }
+
     .header {
         justify-content: center;
         align-items: center;
+
 
     }
 
 
     .header-left {
         flex: 0;
+        font-size: 20px !important;
     }
 
     .header-right {
