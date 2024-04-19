@@ -1,0 +1,50 @@
+.padding-left {
+    padding-left: 0.5rem;
+    font-size: 21px !important;
+
+}
+
+@media (min-width: 851px) {
+    .header-nav {
+        display: flex;
+    }
+
+    .header {
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+    .header-left {
+        flex: 0;
+    }
+
+    .header-right {
+        flex: 0;
+    }
+
+    .display-none-laptop {
+        display: none;
+    }
+
+    .container-image {
+        width: 100%;
+    }
+
+    .container-div {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    .laptop-disply-none {
+        display: none;
+    }
+
+    .laptop-disply-block {
+        display: block;
+    }
+
+
+
+}

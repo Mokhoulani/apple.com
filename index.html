@@ -7,87 +7,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="tablet.css">
+    <link rel="stylesheet" href="laptop.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
+    <link rel="icon" type="image/png" href="./image/favicon.ico" />
 
 </head>
 
-<body class="container ">
+<body>
 
-    <header class="header ">
+    <header class="header">
 
-        <div class="header-left">
-            <li class="icon">
-                <i class="material-icons">apple</i>
-            </li>
+        <div class="header-left items-center flex margin-1">
+            <i class="material-icons  ">apple</i>
         </div>
-        
-            <nav class="header-nav">
-               
-                    <a href="#"> Store </a>
-                    <a href="#"> Mac</a>
-                    <a href="#"> iPad </a>
-                    <a href="#"> iPhone </a>
-                    <a href="#">Watch </a>
-                    <a href="#"> Vision </a>
-                    <a href="#">AirPods </a>
-                    <a href="#"> TV & Home </a>
-                    <a href="#"> Enterainment </a>
-                    <a href="#"> Accessories </a>
-                    <a href="#"> Support</li>
-               
-            </nav>
-        
-        <div class="header-right">
-            <li class="icon">
-                <i class="material-icons">search</i>
-            </li>
-            <li class="icon">
-                <i class="material-icons">shop</i>
-            </li>
-            <li class="icon">
-                <i class="material-icons">menu</i>
-            </li>
+
+        <nav class="header-nav ">
+            <a class="text-d-l-n color-black font-sz-s margin-2 text-align-ce" href="#"> Store </a>
+            <a class="text-d-l-n color-black font-sz-s margin-2 text-align-ce" href="#"> Mac</a>
+            <a class="text-d-l-n color-black font-sz-s margin-2 text-align-ce" href="#"> iPad </a>
+            <a class="text-d-l-n color-black font-sz-s margin-2 text-align-ce" href="#"> iPhone </a>
+            <a class="text-d-l-n color-black font-sz-s margin-2 text-align-ce" href="#">Watch </a>
+            <a class="text-d-l-n color-black font-sz-s margin-2 text-align-ce" href="#"> Vision </a>
+            <a class="text-d-l-n color-black font-sz-s margin-2 text-align-ce" href="#">AirPods </a>
+            <a class="text-d-l-n color-black font-sz-s margin-2 text-align-ce" href="#"> TV & Home </a>
+            <a class="text-d-l-n color-black font-sz-s margin-2 text-align-ce" href="#"> Enterainment </a>
+            <a class="text-d-l-n color-black font-sz-s margin-2 text-align-ce" href="#"> Accessories </a>
+            <a class="text-d-l-n color-black font-sz-s margin-2 text-align-ce" href="#"> Support</a>
+        </nav>
+
+        <div class="header-right items-center  gap ">
+            <i class="material-icons padding-left">search</i>
+            <i class="material-icons ">shop</i>
+            <i class="material-icons display-none-laptop">menu</i>
         </div>
     </header>
 
     <main class="grid">
 
-        <div class="div">
+        <div class="container-video justify-content-cen ">
             <video class="media" src="./video/437257583_7391855254194691_5977685768778495270_n.mp4" autoplay
                 muted></video>
-            <div class="vision-pro-text">
-                <h4><i class="material-icons">apple</i>Vision Pro</h4>
-                <p>You've never seen
-                    evrythinig like this before</p>
-                <div>
-                    <button class="button-white">Learn more</button>
-                    <button class="buy margin-left">Buy</button>
+            <div class="position-abs flex col items-center color-white position-sricky bottom-1">
+                <span class="font-sz-xl font-weight-4 line-height ">
+                    <i class="material-icons">apple</i>VisionPro
+                </span>
+                <span class="font-sz-s font-weight-5 line-height tablet-display-none">You've never seen</span>
+                <span class="font-sz-s font-weight-5 tablet-display-none">evrythinig like this before</span>
+                <span class="font-sz-s font-weight-5 display-none">You've never seen
+                    evrythinig like this before</span>
+
+                <div class="margin-top-b">
+                    <button class="button-1-white">Learn more</button>
+                    <button class="buy-1 margin-left">Buy</button>
                 </div>
             </div>
         </div>
 
-        <div class="image-div">
+        <div class="container-image">
             <img class="media" src="./image/Screenshot 2024-04-13 151336.png" alt="" srcset="">
-            <div class="my-text ">
-                <h2>iPhone</h2>
-                <p>Our most powerful caneras yet.
-                    Uitrafast chips.And USB-C.</p>
-                <div class="my-button">
-                    <button>Explore iPhone 15</button>
+            <div class="position-abs color-white flex col items-center margin-top-1 ">
+                <span class="font-sz-xl font-weight-7 line-height">iPhone</span>
+                <span class="font-sz-auto">Our most powerful cameras yet.</span>
+                <span class="font-sz-auto">Ultrafast chips. And USB-C.</span>
+                <div class="margin-top-b tablet-display-none">
+                    <button class="my-button">Explore iPhone 15</button>
                 </div>
-                <div class="my-button button-width">
-                    <button>Explore iPhone 15 Pro</button>
+                <div class="margin-top-b tablet-display-none">
+                    <button class="my-button">Explore iPhone 15 Pro</button>
+                </div>
+                <div class="margin-top-b display-none">
+                    <button class="my-button">Explore iPhone 15</button>
+                    <button class="my-button margin-left">Explore iPhone 15 Pro</button>
                 </div>
             </div>
         </div>
-        <div class=" image-div">
+        <div class="container-image">
             <img class="media" src="./image/Screenshot 2024-04-13 183049.png" alt="" srcset="">
-            <div class="my-text text-color ">
-                <h4>MacBook Air</h4>
-                <p>Lean.Mean.M3 machine.</p>
-                <div>
+            <div class="position-abs flex col items-center text-sm color-black margin-top-1 ">
+
+                <span class="font-sz-xl font-weight-630 line-height ">MacBook Air</span>
+                <span class="font-sz-m line-height">Lean.Mean.M3 machine.</span>
+                <div class="margin-top-b">
                     <button class="button-blue">Learn more</button>
                     <button class="buy margin-left">Buy</button>
                 </div>
@@ -96,40 +98,44 @@
 
         <div class="container-div">
 
-            <div class="image-div">
+            <div class="container-image">
                 <img class="media" src="./image/Screenshot 2024-04-14 063839.png" alt="" srcset="">
-                <div class="vision-pro-text">
-                    <p>Apple Worldwide
-                        Developers Confernce
-                        Join us online June 10-14</p>
-                    <div>
+                <div class="position-abs flex col items-center color-white font-sz-s margin-top-16">
+                    <span class="laptop-disply-none">Apple Worldwide</span>
+                    <span class="laptop-disply-none">Developers Confernce</span>
+                    <span class="display-none laptop-disply-block">Apple Worldwide Developers Confernce</span>
+                    <span>Join us online June 10-14</span>
+                    <div class="margin-top-b">
                         <button class="button-blue">Learn more</button>
                     </div>
                 </div>
             </div>
-            <div class="image-div">
-                <img class="media" src="./image/Screenshot 2024-04-14 063855.png" alt="" srcset="">
-                <div class="my-text">
-                    <h4><i class="material-icons">apple</i>WATCH</h4>
-                    <p class="font-sz-xs red-color">series 9</p>
-                    <p class="font-sz-s">Smarter.Brighter.Mightier. </p>
-                    <div class="vision-pro-button ">
-                        <button class="button-blue">Learn more</button>
-                        <button class="buy">Buy</button>
-                    </div>
-                </div>
 
+            <div class="container-image margin-top-h">
+                <img class="media" src="./image/Screenshot 2024-04-14 063855.png" alt="" srcset="">
+                <div class="position-abs flex col items-center  margin-top-1 color-white">
+
+                    <span class="font-sz-l font-weight-630 line-height"><i class="material-icons">apple</i>WATCH</span>
+
+                    <span class="font-sz-xs red-color ">series 9</span>
+                    <span class="line-height">Smarter.Brighter.Mightier. </>
+                        <div class="margin-top-b">
+                            <button class="button-blue">Learn more</button>
+                            <button class="buy margin-left-1">Buy</button>
+                        </div>
+                </div>
             </div>
+
         </div>
 
         <div class="container-div">
 
-            <div class="image-div">
+            <div class="container-image">
                 <img class="media" src="./image/Screenshot 2024-04-14 063935.png" alt="" srcset="">
-                <div class="position-abs margin-top-1">
-                    <h4 class="justify-content-cen margin-left-2">ipad</h4>
-                    <p class="justify-content-cen">Lovable. Drawable. Magical</p>
-                    <div class="justify-content-cen">
+                <div class="position-abs flex col items-center margin-top-1 color-black">
+                    <span class="font-sz-xl font-weight-7 line-height">iPad</span>
+                    <span class="line-height">Lovable. Drawable. Magical</span>
+                    <div class="margin-top-b">
                         <button class="button-blue">Learn more</button>
                         <button class="button-white margin-left">Buy</button>
 
@@ -137,12 +143,12 @@
                 </div>
             </div>
 
-            <div class="image-div">
+            <div class="container-image margin-top-h">
                 <img class="media" src="./image/Screenshot 2024-04-14 063944.png" alt="" srcset="">
-                <div class="position-abs justify-content-cen color-white margin-top-1">
-                    <h4>AirPods pro</h4>
-                    <p>Smarter.Brighter.Mightier. </p>
-                    <div>
+                <div class="position-abs flex col items-center color-white margin-top-1">
+                    <span class="font-sz-xl font-weight-7 line-height">AirPods pro</span>
+                    <span class="line-height">Smarter.Brighter.Mightier. </span>
+                    <div class="margin-top-b">
                         <button class="button-blue ">Learn more</button>
                         <button class="buy margin-left">Buy</button>
                     </div>
@@ -153,24 +159,27 @@
 
         <div class="container-div">
 
-            <div class="image-div">
+            <div class="container-image">
                 <img class="media" src="./image/Screenshot 2024-04-14 064031.png" alt="" srcset="">
-                <div class="position-abs margin-top-1 justify-content-cen">
-                    <h4 class="margin-left-2"><i class="material-icons">apple</i>Card</h4>
-                    <!-- <p>Get up to 3% Daily Cash back with every purchase </p> -->
-                    <div>
-                        <button class="button-blue">Learn more</button>
-                        <button class="button-white">Apply now</button>
-                    </div>
+                <div class="position-abs  flex col items-center margin-top-1 color-black">
+                    <span class=" line-height font-sz-xl font-weight-630"><i class="material-icons">apple</i>Card</span>
+                    <saan class="line-height">Get up to 3% Daily Cash back </saan>
+                    <spa class="line-height">with every purchase</span>
+                        <div class="margin-top-b">
+                            <button class="button-blue">Learn more</button>
+                            <button class="button-white margin-left-1">Apply now</button>
+                        </div>
                 </div>
             </div>
 
-            <div class="image-div">
+            <div class="container-image margin-top-h">
                 <img class="media" src="./image/Screenshot 2024-04-14 064103.png" alt="" srcset="">
-                <div class="position-abs">
-                    <h2 class="margin-left-2"><i class="material-icons">apple</i>Trade In</h2>
-                    <!-- <p>Get $180-$630 in credit when You trde in iPhone 11 or hiher</p> -->
-                    <div class="margin-left-2">
+                <div class="position-abs flex col items-center color-black margin-top-1">
+                    <span class="font-sz-xl font-weight-7 line-height"><i class="material-icons">apple</i>Trade
+                        In</span>
+                    <span class="line-height">Get $180-$630 in credit when You </span>
+                    <span class="line-height">trde in iPhone 11 or hiher</span>
+                    <div class="margin-top-b">
                         <button class="button-blue">Get you estimate</button>
                     </div>
                 </div>
@@ -182,7 +191,7 @@
     </main>
 
     <footer class="footer ">
-        <div class="footer-div">
+        <div class="footer-div color-black">
             <p>
                 1. Trade-in values will vary based on the condition, year, and configuration of your eligible trade-in
                 device. Not
@@ -226,6 +235,7 @@
                 A subscription is required for Apple TV+.
                 A subscription is required for Apple Arcade, Apple Fitness+, and Apple Music.
             </p>
+            <p class="pragraph"></p>
         </div>
         <div class="footer-div">
             <div class="accordion  accordion-flush" id="accordionFlushExample">
