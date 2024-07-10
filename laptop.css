@@ -5,8 +5,23 @@
 }
 
 @media (min-width: 851px) {
+    .header-left{
+        display: none;
+    }
+    .header-right{
+        display: none;
+    }
+    .header-container {
+        display: block;
+    }
     .header-nav {
-        display: flex;
+        cursor: default;
+            margin: 0 -8px;
+            width: auto;
+            height: 44px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
     }
 
     .container-video {

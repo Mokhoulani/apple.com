@@ -1,302 +1,521 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Apple</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="mobile.css">
-    <link rel="stylesheet" href="tablet.css">
-    <link rel="stylesheet" href="laptop.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="tablet.css" />
+    <link rel="stylesheet" href="laptop.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
     <link rel="icon" type="image/png" href="./image/favicon.ico" />
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <header class="header">
-
-        <div class="header-left items-center flex ">
-            <i class="material-icons  ">apple</i>
+      <div class="header__mobile-header">
+        <div class="header__item-list">
+          <div class="header__item-left">
+            <span class="header__icon">
+              <svg
+                class="header__icon-svg"
+                height="48"
+                viewBox="0 0 17 48"
+                width="17"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="header__icon-svg-path"
+                  class="header__icon-svg-path"
+                  d="m15.5752 19.0792a4.2055 4.2055 0 0 0 -2.01 3.5376 4.0931 4.0931 0 0 0 2.4908 3.7542 9.7779 9.7779 0 0 1 -1.2755 2.6351c-.7941 1.1431-1.6244 2.2862-2.8878 2.2862s-1.5883-.734-3.0443-.734c-1.42 0-1.9252.7581-3.08.7581s-1.9611-1.0589-2.8876-2.3584a11.3987 11.3987 0 0 1 -1.9373-6.1487c0-3.61 2.3464-5.523 4.6566-5.523 1.2274 0 2.25.8062 3.02.8062.734 0 1.8771-.8543 3.2729-.8543a4.3778 4.3778 0 0 1 3.6822 1.841zm-6.8586-2.0456a1.3865 1.3865 0 0 1 -.2527-.024 1.6557 1.6557 0 0 1 -.0361-.337 4.0341 4.0341 0 0 1 1.0228-2.5148 4.1571 4.1571 0 0 1 2.7314-1.4078 1.7815 1.7815 0 0 1 .0361.373 4.1487 4.1487 0 0 1 -.9867 2.587 3.6039 3.6039 0 0 1 -2.5148 1.3236z"
+                ></path>
+              </svg>
+            </span>
+          </div>
+          <div class="header__item-middle">
+            <span class="header__icon header__width">
+              <svg
+                class="header__icon-svg"
+                height="48"
+                viewBox="0 0 17 48"
+                width="17"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="header__icon-svg-path"
+                  d="m16.2294 29.9556-4.1755-4.0821a6.4711 6.4711 0 1 0 -1.2839 1.2625l4.2005 4.1066a.9.9 0 1 0 1.2588-1.287zm-14.5294-8.0017a5.2455 5.2455 0 1 1 5.2455 5.2527 5.2549 5.2549 0 0 1 -5.2455-5.2527z"
+                ></path>
+              </svg>
+            </span>
+          </div>
+          <div class="header__item-right">
+            <span class="header__icon header__width">
+              <svg
+                class="header__icon-svg"
+                height="48"
+                viewBox="0 0 17 48"
+                width="17"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="header__icon-svg-path"
+                  d="m13.4575 16.9268h-1.1353a3.8394 3.8394 0 0 0 -7.6444 0h-1.1353a2.6032 2.6032 0 0 0 -2.6 2.6v8.9232a2.6032 2.6032 0 0 0 2.6 2.6h9.915a2.6032 2.6032 0 0 0 2.6-2.6v-8.9231a2.6032 2.6032 0 0 0 -2.6-2.6001zm-4.9575-2.2768a2.658 2.658 0 0 1 2.6221 2.2764h-5.2442a2.658 2.658 0 0 1 2.6221-2.2764zm6.3574 13.8a1.4014 1.4014 0 0 1 -1.4 1.4h-9.9149a1.4014 1.4014 0 0 1 -1.4-1.4v-8.9231a1.4014 1.4014 0 0 1 1.4-1.4h9.915a1.4014 1.4014 0 0 1 1.4 1.4z"
+                ></path>
+              </svg>
+            </span>
+          </div>
         </div>
-
-        <nav class="header-nav ">
-            <a class="text-d-l-n color-black font-sz-12 font-weight-4 font-family line-height  margin-2 text-align-ce"
-                href="#"> Store </a>
-            <a class="text-d-l-n color-black font-sz-12 font-weight-4 font-family line-height margin-2 text-align-ce" href="#">
-                Mac</a>
-            <a class="text-d-l-n color-black font-sz-12 font-weight-4 font-family line-height margin-2 text-align-ce" href="#">
-                iPad </a>
-            <a class="text-d-l-n color-black font-sz-12 font-weight-4 font-family line-height margin-2 text-align-ce" href="#">
-                iPhone </a>
-            <a class="text-d-l-n color-black font-sz-12 font-weight-4 font-family line-height margin-2 text-align-ce"
-                href="#">Watch </a>
-            <a class="text-d-l-n color-black font-sz-12 font-weight-4 font-family line-height margin-2 text-align-ce" href="#">
-                Vision </a>
-            <a class="text-d-l-n color-black font-sz-12 font-weight-4 font-family line-height margin-2 text-align-ce"
-                href="#">AirPods </a>
-            <a class="text-d-l-n color-black font-sz-12 font-weight-4 font-family line-height margin-2 text-align-ce" href="#">
-                TV & Home </a>
-            <a class="text-d-l-n color-black font-sz-12 font-weight-4 font-family line-height margin-2 text-align-ce" href="#">
-                Enterainment </a>
-            <a class="text-d-l-n color-black font-sz-12 font-weight-4 font-family line-height margin-2 text-align-ce" href="#">
-                Accessories </a>
-            <a class="text-d-l-n color-black font-sz-12 font-weight-4 font-family line-height margin-2 text-align-ce" href="#">
-                Support</a>
-        </nav>
-
-        <div class="header-right items-center  gap ">
-            <i class="material-icons padding-left">search</i>
-            <i class="material-icons ">shop</i>
-            <i class="material-icons display-none-laptop">menu</i>
+        <div class="header__item-menu">
+          <span class="header__icon">
+            <svg
+              class="header__icon-svg"
+              width="18"
+              height="18"
+              viewBox="0 0 18 18"
+            >
+              <polyline
+                class="header__icon-svg-polyline"
+                stroke-width="1.2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                points="2 10, 16 10"
+              ></polyline>
+              <polyline
+                class="header__icon-svg-polyline"
+                stroke-width="1.2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                points="2 3, 16 3"
+              ></polyline>
+            </svg>
+          </span>
         </div>
+      </div>
+      <nav class="header-nav">
+        <span class="colored-svg icon"
+          ><svg
+            height="44"
+            viewBox="0 0 14 44"
+            width="14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m13.0729 17.6825a3.61 3.61 0 0 0 -1.7248 3.0365 3.5132 3.5132 0 0 0 2.1379 3.2223 8.394 8.394 0 0 1 -1.0948 2.2618c-.6816.9812-1.3943 1.9623-2.4787 1.9623s-1.3633-.63-2.613-.63c-1.2187 0-1.6525.6507-2.644.6507s-1.6834-.9089-2.4787-2.0243a9.7842 9.7842 0 0 1 -1.6628-5.2776c0-3.0984 2.014-4.7405 3.9969-4.7405 1.0535 0 1.9314.6919 2.5924.6919.63 0 1.6112-.7333 2.8092-.7333a3.7579 3.7579 0 0 1 3.1604 1.5802zm-3.7284-2.8918a3.5615 3.5615 0 0 0 .8469-2.22 1.5353 1.5353 0 0 0 -.031-.32 3.5686 3.5686 0 0 0 -2.3445 1.2084 3.4629 3.4629 0 0 0 -.8779 2.1585 1.419 1.419 0 0 0 .031.2892 1.19 1.19 0 0 0 .2169.0207 3.0935 3.0935 0 0 0 2.1586-1.1368z"
+            ></path>
+          </svg>
+        </span>
+        <a
+          class="text-d-l-n color-black font-sz-12 font-weight-4 font-family line-height margin-2 text-align-ce"
+          href="#"
+        >
+          Store
+        </a>
+        <a
+          class="text-d-l-n color-black font-sz-12 font-weight-4 font-family line-height margin-2 text-align-ce"
+          href="#"
+        >
+          Mac</a
+        >
+        <a
+          class="text-d-l-n color-black font-sz-12 font-weight-4 font-family line-height margin-2 text-align-ce"
+          href="#"
+        >
+          iPad
+        </a>
+        <a
+          class="text-d-l-n color-black font-sz-12 font-weight-4 font-family line-height margin-2 text-align-ce"
+          href="#"
+        >
+          iPhone
+        </a>
+        <a
+          class="text-d-l-n color-black font-sz-12 font-weight-4 font-family line-height margin-2 text-align-ce"
+          href="#"
+          >Watch
+        </a>
+        <a
+          class="text-d-l-n color-black font-sz-12 font-weight-4 font-family line-height margin-2 text-align-ce"
+          href="#"
+        >
+          Vision
+        </a>
+        <a
+          class="text-d-l-n color-black font-sz-12 font-weight-4 font-family line-height margin-2 text-align-ce"
+          href="#"
+          >AirPods
+        </a>
+        <a
+          class="text-d-l-n color-black font-sz-12 font-weight-4 font-family line-height margin-2 text-align-ce"
+          href="#"
+        >
+          TV & Home
+        </a>
+        <a
+          class="text-d-l-n color-black font-sz-12 font-weight-4 font-family line-height margin-2 text-align-ce"
+          href="#"
+        >
+          Enterainment
+        </a>
+        <a
+          class="text-d-l-n color-black font-sz-12 font-weight-4 font-family line-height margin-2 text-align-ce"
+          href="#"
+        >
+          Accessories
+        </a>
+        <a
+          class="text-d-l-n color-black font-sz-12 font-weight-4 font-family line-height margin-2 text-align-ce"
+          href="#"
+        >
+          Support</a
+        >
+        <span class="colored-svg icon"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="15px"
+            height="44px"
+            viewBox="0 0 15 44"
+          >
+            <path
+              d="M14.298,27.202l-3.87-3.87c0.701-0.929,1.122-2.081,1.122-3.332c0-3.06-2.489-5.55-5.55-5.55c-3.06,0-5.55,2.49-5.55,5.55 c0,3.061,2.49,5.55,5.55,5.55c1.251,0,2.403-0.421,3.332-1.122l3.87,3.87c0.151,0.151,0.35,0.228,0.548,0.228 s0.396-0.076,0.548-0.228C14.601,27.995,14.601,27.505,14.298,27.202z M1.55,20c0-2.454,1.997-4.45,4.45-4.45 c2.454,0,4.45,1.997,4.45,4.45S8.454,24.45,6,24.45C3.546,24.45,1.55,22.454,1.55,20z"
+            ></path>
+          </svg>
+        </span>
+        <span class="colored-svg icon"
+          ><svg
+            height="44"
+            viewBox="0 0 14 44"
+            width="14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m11.3535 16.0283h-1.0205a3.4229 3.4229 0 0 0 -3.333-2.9648 3.4229 3.4229 0 0 0 -3.333 2.9648h-1.02a2.1184 2.1184 0 0 0 -2.117 2.1162v7.7155a2.1186 2.1186 0 0 0 2.1162 2.1167h8.707a2.1186 2.1186 0 0 0 2.1168-2.1167v-7.7155a2.1184 2.1184 0 0 0 -2.1165-2.1162zm-4.3535-1.8652a2.3169 2.3169 0 0 1 2.2222 1.8652h-4.4444a2.3169 2.3169 0 0 1 2.2222-1.8652zm5.37 11.6969a1.0182 1.0182 0 0 1 -1.0166 1.0171h-8.7069a1.0182 1.0182 0 0 1 -1.0165-1.0171v-7.7155a1.0178 1.0178 0 0 1 1.0166-1.0166h8.707a1.0178 1.0178 0 0 1 1.0164 1.0166z"
+            ></path>
+          </svg>
+        </span>
+      </nav>
     </header>
 
     <main class="grid">
+      <div class="container-video justify-content-cen">
+        <video
+          class="media"
+          src="./video/437257583_7391855254194691_5977685768778495270_n.mp4"
+          autoplay
+          muted
+        ></video>
+        <div
+          class="position-abs flex col items-center color-white position-sricky bottom-3"
+        >
+          <span class="headline tablet-display-none">
+            <i class="material-icons font-sz-xxl">apple</i>VisionPro
+          </span>
+          <span class="headline-font laptop-disply-block">
+            <i class="material-icons headline-font">apple</i>VisionPro
+          </span>
+          <span class="font-sz-m font-weight-4 line-height tablet-display-none"
+            >You've never seen</span
+          >
+          <span class="font-sz-m font-weight-4 tablet-display-none"
+            >evrythinig like this before</span
+          >
+          <span class="font-sz-xl font-weight-4 display-none"
+            >You've never seen evrythinig like this before</span
+          >
 
-        <div class="container-video justify-content-cen ">
-            <video class="media" src="./video/437257583_7391855254194691_5977685768778495270_n.mp4" autoplay
-                muted></video>
-            <div class="position-abs flex col items-center color-white position-sricky bottom-3">
-                <span class="headline tablet-display-none">
-                    <i class="material-icons font-sz-xxl">apple</i>VisionPro
-                </span>
-                <span class="headline-font laptop-disply-block">
-                    <i class="material-icons headline-font">apple</i>VisionPro
-                </span>
-                <span class="font-sz-m font-weight-4 line-height tablet-display-none">You've never seen</span>
-                <span class="font-sz-m font-weight-4 tablet-display-none">evrythinig like this before</span>
-                <span class="font-sz-xl font-weight-4 display-none">You've never seen
-                    evrythinig like this before</span>
-
-                <div class="margin-top-b-v">
-                    <button class="button-1-white">Learn more</button>
-                    <button class="buy-1 margin-left">Buy</button>
-                </div>
-            </div>
+          <div class="margin-top-b-v">
+            <button class="button-1-white">Learn more</button>
+            <button class="buy-1 margin-left">Buy</button>
+          </div>
         </div>
+      </div>
 
+      <div class="container-image">
+        <img
+          class="media"
+          src="./image/Screenshot 2024-04-13 151336.png"
+          alt=""
+          srcset=""
+        />
+        <div
+          class="position-abs color-white flex col items-center margin-top-1"
+        >
+          <span class="font-sz-xxl font-weight-7 line-height">iPhone</span>
+          <span class="font-sz-m font-weight-5"
+            >Our most powerful cameras yet.</span
+          >
+          <span class="font-sz-m font-weight-5"
+            >Ultrafast chips. And USB-C.</span
+          >
+          <div class="margin-top-b tablet-display-none">
+            <button class="my-button">Explore iPhone 15</button>
+          </div>
+          <div class="margin-top-b tablet-display-none">
+            <button class="my-button">Explore iPhone 15 Pro</button>
+          </div>
+          <div class="margin-top-b display-none">
+            <button class="my-button">Explore iPhone 15</button>
+            <button class="my-button margin-left">Explore iPhone 15 Pro</button>
+          </div>
+        </div>
+      </div>
+      <div class="container-image">
+        <img
+          class="media"
+          src="./image/Screenshot 2024-04-13 183049.png"
+          alt=""
+          srcset=""
+        />
+        <div
+          class="position-abs flex col items-center text-sm color-black margin-top-1"
+        >
+          <span class="font-sz-xl font-weight-7">MacBook Air</span>
+          <span class="font-sz-l font-weight-4">Lean.Mean.M3 machine.</span>
+          <div class="margin-top-b">
+            <button class="button-blue">Learn more</button>
+            <button class="buy margin-left">Buy</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-div">
         <div class="container-image">
-            <img class="media" src="./image/Screenshot 2024-04-13 151336.png" alt="" srcset="">
-            <div class="position-abs color-white flex col items-center margin-top-1 ">
-                <span class="font-sz-xxl font-weight-7 line-height">iPhone</span>
-                <span class="font-sz-m font-weight-5">Our most powerful cameras yet.</span>
-                <span class="font-sz-m font-weight-5">Ultrafast chips. And USB-C.</span>
-                <div class="margin-top-b tablet-display-none">
-                    <button class="my-button">Explore iPhone 15</button>
-                </div>
-                <div class="margin-top-b tablet-display-none">
-                    <button class="my-button">Explore iPhone 15 Pro</button>
-                </div>
-                <div class="margin-top-b display-none">
-                    <button class="my-button">Explore iPhone 15</button>
-                    <button class="my-button margin-left">Explore iPhone 15 Pro</button>
-                </div>
+          <img
+            class="media"
+            src="./image/Screenshot 2024-04-14 063839.png"
+            alt=""
+            srcset=""
+          />
+          <div
+            class="position-abs flex col items-center color-white position-sricky margin-top-24"
+          >
+            <span class="laptop-disply-none">Apple Worldwide</span>
+            <span class="laptop-disply-none">Developers Confernce</span>
+            <span class="display-none laptop-disply-block"
+              >Apple Worldwide Developers Confernce</span
+            >
+            <span>Join us online June 10-14</span>
+            <div class="margin-top-b">
+              <button class="button-blue">Learn more</button>
             </div>
+          </div>
         </div>
+
+        <div class="container-image margin-top-h">
+          <img
+            class="media"
+            src="./image/Screenshot 2024-04-14 063855.png"
+            alt=""
+            srcset=""
+          />
+          <div
+            class="position-abs flex col items-center margin-top-1 color-white"
+          >
+            <span class="font-sz-xl font-weight-7 line-height"
+              ><i class="material-icons">apple</i>WATCH</span
+            >
+
+            <span class="font-sz-s red-color">series 9</span>
+            <span class="font-sz-l line-height"
+              >Smarter.Brighter.Mightier.
+            </span>
+            <div class="margin-top-b">
+              <button class="button-blue">Learn more</button>
+              <button class="buy margin-left-1">Buy</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-div">
         <div class="container-image">
-            <img class="media" src="./image/Screenshot 2024-04-13 183049.png" alt="" srcset="">
-            <div class="position-abs flex col items-center text-sm color-black margin-top-1 ">
-
-                <span class="font-sz-xl font-weight-7 ">MacBook Air</span>
-                <span class="font-sz-l font-weight-4">Lean.Mean.M3 machine.</span>
-                <div class="margin-top-b">
-                    <button class="button-blue">Learn more</button>
-                    <button class="buy margin-left">Buy</button>
-                </div>
+          <img
+            class="media"
+            src="./image/Screenshot 2024-04-14 063935.png"
+            alt=""
+            srcset=""
+          />
+          <div
+            class="position-abs flex col items-center margin-top-1 color-black"
+          >
+            <span class="font-sz-xxl font-weight-7 line-height">iPad</span>
+            <span class="font-sz-l line-height"
+              >Lovable. Drawable. Magical</span
+            >
+            <div class="margin-top-b">
+              <button class="button-blue">Learn more</button>
+              <button class="button-white margin-left">Buy</button>
             </div>
+          </div>
         </div>
 
-        <div class="container-div">
-
-            <div class="container-image">
-                <img class="media" src="./image/Screenshot 2024-04-14 063839.png" alt="" srcset="">
-                <div class="position-abs flex col items-center color-white position-sricky margin-top-24">
-                    <span class="laptop-disply-none">Apple Worldwide</span>
-                    <span class="laptop-disply-none">Developers Confernce</span>
-                    <span class="display-none laptop-disply-block">Apple Worldwide Developers Confernce</span>
-                    <span>Join us online June 10-14</span>
-                    <div class="margin-top-b">
-                        <button class="button-blue">Learn more</button>
-                    </div>
-                </div>
+        <div class="container-image margin-top-h">
+          <img
+            class="media"
+            src="./image/Screenshot 2024-04-14 063944.png"
+            alt=""
+            srcset=""
+          />
+          <div
+            class="position-abs flex col items-center color-white margin-top-1"
+          >
+            <span class="font-sz-xl font-weight-7 line-height"
+              >AirPods pro</span
+            >
+            <span class="line-height">Smarter.Brighter.Mightier. </span>
+            <div class="margin-top-b">
+              <button class="button-blue">Learn more</button>
+              <button class="buy margin-left">Buy</button>
             </div>
+          </div>
+        </div>
+      </div>
 
-            <div class="container-image margin-top-h">
-                <img class="media" src="./image/Screenshot 2024-04-14 063855.png" alt="" srcset="">
-                <div class="position-abs flex col items-center  margin-top-1 color-white">
-
-                    <span class="font-sz-xl font-weight-7 line-height"><i class="material-icons">apple</i>WATCH</span>
-
-                    <span class="font-sz-s red-color ">series 9</span>
-                    <span class="font-sz-l line-height">Smarter.Brighter.Mightier. </span>
-                    <div class="margin-top-b">
-                        <button class="button-blue">Learn more</button>
-                        <button class="buy margin-left-1">Buy</button>
-                    </div>
-                </div>
+      <div class="container-div">
+        <div class="container-image">
+          <img
+            class="media"
+            src="./image/Screenshot 2024-04-14 064031.png"
+            alt=""
+            srcset=""
+          />
+          <div
+            class="position-abs flex col items-center margin-top-1 color-black"
+          >
+            <span class="line-height font-sz-xxl font-weight-7"
+              ><i class="material-icons font-sz-xxl">apple</i>Card</span
+            >
+            <saan class="line-height font-sz-l"
+              >Get up to 3% Daily Cash back
+            </saan>
+            <span class="line-height font-sz-l">with every purchase</span>
+            <div class="margin-top-b">
+              <button class="button-blue">Learn more</button>
+              <button class="button-white margin-left-1">Apply now</button>
             </div>
-
+          </div>
         </div>
 
-        <div class="container-div">
-
-            <div class="container-image">
-                <img class="media" src="./image/Screenshot 2024-04-14 063935.png" alt="" srcset="">
-                <div class="position-abs flex col items-center margin-top-1 color-black">
-                    <span class="font-sz-xxl font-weight-7 line-height">iPad</span>
-                    <span class="font-sz-l line-height">Lovable. Drawable. Magical</span>
-                    <div class="margin-top-b">
-                        <button class="button-blue">Learn more</button>
-                        <button class="button-white margin-left">Buy</button>
-
-                    </div>
-                </div>
+        <div class="container-image margin-top-h">
+          <img
+            class="media"
+            src="./image/Screenshot 2024-04-14 064103.png"
+            alt=""
+            srcset=""
+          />
+          <div
+            class="position-abs flex col items-center color-black margin-top-1"
+          >
+            <span class="font-sz-xxl font-weight-630 line-height"
+              ><i class="material-icons font-sz-xxl">apple</i>Trade In</span
+            >
+            <span class="line-height font-sz-l"
+              >Get $180-$630 in credit when You
+            </span>
+            <span class="line-height font-sz-l"
+              >trde in iPhone 11 or hiher</span
+            >
+            <div class="margin-top-b">
+              <button class="button-blue">Get you estimate</button>
             </div>
-
-            <div class="container-image margin-top-h">
-                <img class="media" src="./image/Screenshot 2024-04-14 063944.png" alt="" srcset="">
-                <div class="position-abs flex col items-center color-white margin-top-1">
-                    <span class="font-sz-xl font-weight-7 line-height">AirPods pro</span>
-                    <span class="line-height">Smarter.Brighter.Mightier. </span>
-                    <div class="margin-top-b">
-                        <button class="button-blue ">Learn more</button>
-                        <button class="buy margin-left">Buy</button>
-                    </div>
-                </div>
-
-            </div>
+          </div>
         </div>
-
-        <div class="container-div">
-
-            <div class="container-image">
-                <img class="media" src="./image/Screenshot 2024-04-14 064031.png" alt="" srcset="">
-                <div class="position-abs  flex col items-center margin-top-1 color-black">
-                    <span class=" line-height font-sz-xxl font-weight-7"><i
-                            class="material-icons font-sz-xxl">apple</i>Card</span>
-                    <saan class="line-height font-sz-l ">Get up to 3% Daily Cash back </saan>
-                    <span class="line-height font-sz-l">with every purchase</span>
-                    <div class="margin-top-b">
-                        <button class="button-blue">Learn more</button>
-                        <button class="button-white margin-left-1">Apply now</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container-image margin-top-h">
-                <img class="media" src="./image/Screenshot 2024-04-14 064103.png" alt="" srcset="">
-                <div class="position-abs flex col items-center color-black margin-top-1">
-                    <span class="font-sz-xxl font-weight-630 line-height"><i
-                            class="material-icons font-sz-xxl">apple</i>Trade In</span>
-                    <span class="line-height font-sz-l">Get $180-$630 in credit when You </span>
-                    <span class="line-height font-sz-l">trde in iPhone 11 or hiher</span>
-                    <div class="margin-top-b">
-                        <button class="button-blue">Get you estimate</button>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
+      </div>
     </main>
 
-    <footer class="footer ">
-        <div class="footer-div color-black">
-            <p>
-                1. Trade-in values will vary based on the condition, year, and configuration of your eligible trade-in
-                device. Not
-                all
-                devices are eligible for credit. You must be at least 18 years old to be eligible to trade in for credit
-                or for an
-                Apple
-                Gift Card. Trade-in value may be applied toward qualifying new device purchase, or added to an Apple
-                Gift Card.
-                Actual
-                value awarded is based on receipt of a qualifying device matching the description provided when estimate
-                was made.
-                Sales
-                tax may be assessed on full value of a new device purchase. In-store trade-in requires presentation of a
-                valid photo
-                ID
-                (local law may require saving this information). Offer may not be available in all stores, and may vary
-                between
-                in-store
-                and online trade-in. Some stores may have additional requirements. Apple or its trade-in partners
-                reserve the right
-                to
-                refuse or limit quantity of any trade-in transaction for any reason. More details are available from
-                Apple’s
-                trade-in
-                partner for trade-in and recycling of eligible devices. Restrictions and limitations may apply.
-                Available in the U.S. on apple.com, in the Apple Store app, and at Apple Stores.
-                To access and use all Apple Card features and products available only to Apple Card users, you must add
-                Apple Card
-                to
-                Wallet on an iPhone or iPad that supports and has the latest version of iOS or iPadOS. Apple Card is
-                subject to
-                credit
-                approval, available only for qualifying applicants in the United States, and issued by Goldman Sachs
-                Bank USA, Salt
-                Lake
-                City Branch.
-                If you reside in the U.S. territories, please call Goldman Sachs at 877-255-5923 with questions about
-                Apple Card.
-                Learn more about how Apple Card applications are evaluated at support.apple.com/kb/HT209218.
-                A subscription is required for Apple TV+.
-                A subscription is required for Apple Arcade, Apple Fitness+, and Apple Music.
-            </p>
-            <p class="pragraph"></p>
-        </div>
-        <div class="footer-div">
-            <div class="accordion  accordion-flush" id="accordionFlushExample">
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne"
-                            fdprocessedid="a4ii93">
-                            Shop and Learn
-                        </button>
-                    </h2>
-                    <div id="flush-collapseOne" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <div><a href="#">Store</a></div>
-                            <div><a href="#">Mac</a></div>
-                            <div><a href="#">iPad</a></div>
-                            <div><a href="#">iPhone</a></div>
-                            <div><a href="#">Wactch</a></div>
-                            <div><a href="#">Vision</a></div>
-                            <div><a href="#">Airpods</a></div>
-                            <div><a href="#">TV & Home</a></div>
-                            <div><a href="#">AirTag</a></div>
-                            <div><a href="#">Accessories</a></div>
-                            <div><a href="#">Gift Cards</a></div>
-
-                        </div>
-                    </div>
-                </div>
+    <footer class="footer">
+      <div class="footer-div color-black">
+        <p>
+          1. Trade-in values will vary based on the condition, year, and
+          configuration of your eligible trade-in device. Not all devices are
+          eligible for credit. You must be at least 18 years old to be eligible
+          to trade in for credit or for an Apple Gift Card. Trade-in value may
+          be applied toward qualifying new device purchase, or added to an Apple
+          Gift Card. Actual value awarded is based on receipt of a qualifying
+          device matching the description provided when estimate was made. Sales
+          tax may be assessed on full value of a new device purchase. In-store
+          trade-in requires presentation of a valid photo ID (local law may
+          require saving this information). Offer may not be available in all
+          stores, and may vary between in-store and online trade-in. Some stores
+          may have additional requirements. Apple or its trade-in partners
+          reserve the right to refuse or limit quantity of any trade-in
+          transaction for any reason. More details are available from Apple’s
+          trade-in partner for trade-in and recycling of eligible devices.
+          Restrictions and limitations may apply. Available in the U.S. on
+          apple.com, in the Apple Store app, and at Apple Stores. To access and
+          use all Apple Card features and products available only to Apple Card
+          users, you must add Apple Card to Wallet on an iPhone or iPad that
+          supports and has the latest version of iOS or iPadOS. Apple Card is
+          subject to credit approval, available only for qualifying applicants
+          in the United States, and issued by Goldman Sachs Bank USA, Salt Lake
+          City Branch. If you reside in the U.S. territories, please call
+          Goldman Sachs at 877-255-5923 with questions about Apple Card. Learn
+          more about how Apple Card applications are evaluated at
+          support.apple.com/kb/HT209218. A subscription is required for Apple
+          TV+. A subscription is required for Apple Arcade, Apple Fitness+, and
+          Apple Music.
+        </p>
+        <p class="pragraph"></p>
+      </div>
+      <div class="footer-div">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+                fdprocessedid="a4ii93"
+              >
+                Shop and Learn
+              </button>
+            </h2>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                <div><a href="#">Store</a></div>
+                <div><a href="#">Mac</a></div>
+                <div><a href="#">iPad</a></div>
+                <div><a href="#">iPhone</a></div>
+                <div><a href="#">Wactch</a></div>
+                <div><a href="#">Vision</a></div>
+                <div><a href="#">Airpods</a></div>
+                <div><a href="#">TV & Home</a></div>
+                <div><a href="#">AirTag</a></div>
+                <div><a href="#">Accessories</a></div>
+                <div><a href="#">Gift Cards</a></div>
+              </div>
             </div>
+          </div>
         </div>
-        <div>
-            <p>
-                More ways to shop: Find an Apple Store or other retailer near you. Or call 1-800-MY-APPLE.
-                United States
-                Copyright © 2024 Apple Inc. All rights reserved.
-                Privacy Policy Terms of Use Sales and Refunds Legal Site Map
-            </p>
-        </div>
-
-
+      </div>
+      <div>
+        <p>
+          More ways to shop: Find an Apple Store or other retailer near you. Or
+          call 1-800-MY-APPLE. United States Copyright © 2024 Apple Inc. All
+          rights reserved. Privacy Policy Terms of Use Sales and Refunds Legal
+          Site Map
+        </p>
+      </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-</body>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
