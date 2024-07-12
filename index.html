@@ -17,7 +17,7 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="icon" type="image/png" href="./image/favicon.ico" />
+    <link rel="icon" type="image/png" href="./images/favicon.ico" />
   </head>
 
   <body>
@@ -203,9 +203,94 @@
         </span>
       </nav>
     </header>
-
-    <main class="grid">
-      <div class="container-video justify-content-cen">
+    <main class="main">
+      <div class="main__content">
+        <picture class="main__image-container">
+          <source
+            class="main__content__image"
+            media="(min-width: 1024px)"
+            srcset="
+              ./images/desktop-img/promo_ipadpro__ch217v9v7no2_large_2x.jpg
+            "
+          />
+          <source
+            class="main__image"
+            media="(min-width: 769px)"
+            srcset="
+              ./images/tablet-img/hero_ipadpro__bpt7a9d8sh42_medium_2x.jpg
+            "
+          />
+          <source
+            class="main__image"
+            media="(max-width: 768px)"
+            srcset="./images/mobile-img/hero_ipadpro__bpt7a9d8sh42_small_2x.jpg"
+          />
+          <img
+            class="main__image"
+            src="./images/mobile-img/hero_ipadpro__bpt7a9d8sh42_small_2x.jpg"
+            alt="iPhone family hero image"
+          />
+        </picture>
+        <div class="main__unit-container">
+          <div>
+            <h2 class="main__headline">iPad Pro</h2>
+            <p class="main__subheadline">
+              Unbelievably thin. Incredibly powerful.
+            </p>
+          </div>
+          <div>
+            <button class="main__button main__button-primary">
+              Learn more
+            </button>
+            <button class="main__button main__button-tertiary">Buy</button>
+          </div>
+        </div>
+      </div>
+      <div class="main__content">
+        <picture class="main__image-container">
+          <source
+            class="main__content__image"
+            media="(min-width: 1024px)"
+            srcset="
+              ./images/desktop-img/hero_iphone_family_a__c7v3mvx3jv42_large_2x.jpg
+            "
+          />
+          <source
+            class="main__image"
+            media="(min-width: 769px)"
+            srcset="
+              ./images/tablet-img/hero_iphone_family_a__c7v3mvx3jv42_medium_2x.jpg
+            "
+          />
+          <source
+            class="main__image"
+            media="(max-width: 768px)"
+            srcset="
+              ./images/mobile-img/hero_iphone_family_a__c7v3mvx3jv42_small_2x.jpg
+            "
+          />
+          <img
+            class="main__image"
+            src="./images/mobile-img/hero_iphone_family_a__c7v3mvx3jv42_small_2x.jpg"
+            alt="iPhone family hero image"
+          />
+        </picture>
+        <div class="main__unit-container">
+          <div>
+            <h2 class="main__headline">iPhone</h2>
+            <p class="main__subheadline">
+              Our most powerful cameras yet. Ultrafast chips. And USB-c.
+            </p>
+          </div>
+          <div>
+            <button class="main__button main__button-primary">
+              Learn more
+            </button>
+            <button class="main__button main__button-tertiary">Shop iPhone</button>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="container-video justify-content-cen">
         <video
           class="media"
           src="./video/437257583_7391855254194691_5977685768778495270_n.mp4"
@@ -428,10 +513,10 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </main>
 
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="footer-div color-black">
         <p>
           1. Trade-in values will vary based on the condition, year, and
@@ -516,6 +601,6 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
-    ></script>
+    ></script> -->
   </body>
 </html>

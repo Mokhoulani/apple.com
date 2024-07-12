@@ -2,7 +2,14 @@
   --r-globalnav-text-zoom-scale: 1;
   --background: rgb(22, 22, 23, 0.8);
   --icon-color: rgb(225, 225, 225, 0.8);
-  --image-mobile: url('./image/desktop-img/hero_iphone_family_a__c7v3mvx3jv42_large_2x');
+  --image-mobile: url('./image/desktop-img/hero_iphone_family_a__c7v3mvx3jv42_large_2x.jpg');
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
 }
 
 .header {
@@ -65,4 +72,85 @@
 
 .header-nav {
   display: none;
+}
+
+// main content
+
+.main {
+  margin: 0 auto;
+  padding-top: 48px;
+  display: grid;
+  gap: 12px;
+  &__content {
+    display: flex;
+    justify-content: center;
+  }
+  &__image-container {
+    height: 500px;
+  }
+  &__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  &__unit-container {
+    position: absolute;
+    text-align: center;
+    padding-top: 37px;
+  }
+  &__headline {
+    color: #f5f5f7;
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: 0.004em;
+    font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
+      'Arial', sans-serif;
+  }
+  &__subheadline {
+    max-width: 330px;
+    color: #f5f5f7;
+    font-size: 19px;
+    line-height: 1.21053;
+    font-weight: 400;
+    letter-spacing: 0.012em;
+    font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
+      'Arial', sans-serif;
+  }
+  &__button {
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -0.016em;
+    font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
+      'Arial', sans-serif;
+    --sk-button-margin-horizontal: 14px;
+    --sk-button-margin-vertical: 14px;
+    min-width: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 1.75rem;
+  }
+  &__button-elevated {
+  }
+  &__button-primary {
+    background: #0071e3;
+    color: #fff;
+    border-color: rgba(0, 0, 0, 0);
+  }
+  &__button-tertiary {
+    margin-left: 10px;
+    padding: 7px 20px;
+    background: rgba(0, 0, 0, 0);
+    color: #2997ff;
+    border: #2997ff solid 1px;
+    &:hover {
+      background: #2997ff;
+      color: #fff;
+      border-color: #2997ff;
+    }
+  }
 }
